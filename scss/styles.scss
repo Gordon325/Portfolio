@@ -1,9 +1,12 @@
 @import "normalize";
 @import "lightgallery";
 @import "lg-transitions";
+@import "uikit-rtl";
+@import "uikit";
+
 
 // Thumbnails
 
 figure {
-    margin: 0px;
+    margin: 1px;
 }
