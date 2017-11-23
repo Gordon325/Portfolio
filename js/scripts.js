@@ -18,3 +18,4 @@ $('figure').lightGallery({
     selector: 'a', 
     thumbnail: true,
 });
+
