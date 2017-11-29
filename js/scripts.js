@@ -22,4 +22,5 @@ $('figure').lightGallery({
   download: false,
   zoom: false,
   share: false,
+  showThumbByDefault: false,
 });
