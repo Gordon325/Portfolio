@@ -14,8 +14,12 @@ var img2 = 'http://picsum.photos/400/300';
 $('header img').attr('src', eval('img' + numRand) );
 
 // Activate Gallery
-$('figure').lightGallery({
-    selector: 'a', 
-    thumbnail: true,
-});
 
+$('figure').lightGallery({
+  selector: 'a',
+  mode: 'lg-lollipop-rev',
+  speed: 1000,
+  download: false,
+  zoom: false,
+  share: false,
+});

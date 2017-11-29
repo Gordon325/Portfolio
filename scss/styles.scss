@@ -7,8 +7,54 @@
 
 // Thumbnails
 
-main {
-    max-width: 85%;
-    margin: auto;
-    text-align: center;
+html{
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/round.png');
+  background-attachment: fixed;
+}
+figure {
+  background: rgba(200, 200, 200, .5);
+  max-width: 900px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+figure h1 {
+  font-size: 2.7em;
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: #ae5016;
+  font-weight: 100;
+}
+.lg-progress-bar .lg-progress {
+    background-color: rgb(174, 80, 22);
+}
+a img {
+  border: 1px solid rgba(174, 80, 22, .3);
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.lg-backdrop {
+  background: rgba(174, 80, 22, .5);
+}
+.lg-image {
+    border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 0 0 10px black
+}
+
+body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object {
+    background-color: rgba(255, 255, 255, 1);
+    max-height: 90vh;
+    max-width: 90vw;
 }
