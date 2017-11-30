@@ -10,6 +10,7 @@
 html{
   background: url('https://www.toptal.com/designers/subtlepatterns/patterns/round.png');
   background-attachment: fixed;
+    box-sizing: border-box;
 }
 figure {
   background: rgba(200, 200, 200, .5);
@@ -63,4 +64,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     background-color: rgba(255, 255, 255, 1);
     max-height: 90vh;
     max-width: 90vw;
+}
+
+.lg-outer .lg-item {
+    
+    background: url(/img/newLoading.gif) no-repeat scroll center center transparent;
 }
